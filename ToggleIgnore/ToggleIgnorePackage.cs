@@ -25,6 +25,7 @@
    ///    </para>
    /// </remarks>
    [ PackageRegistration( UseManagedResourcesOnly = true, AllowsBackgroundLoading = true ), Guid( PackageGuidString ) ]
+   [ProvideMenuResource("Menus.ctmenu", 1)]
    public sealed class ToggleIgnorePackage: AsyncPackage
    {
       /// <summary>
